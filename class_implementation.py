@@ -6,16 +6,6 @@ class Patient:
         self.gender = gender
         self.age = age
     
-    def open_file():
-        patients = []
-        with open("Project Data\patients.txt", "r") as file:
-            next(file)
-            for line in file:
-                pid, name, disease, gender, age = line.strip().split("_")
-                patient = Patient(pid, name, disease, gender, age)
-                patients.append(patient)
-        return patients
-    
     def get_pid(self):
         return self.pid
     
