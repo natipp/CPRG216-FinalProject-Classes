@@ -1,5 +1,6 @@
 #Creation of the Patient class
 class Patient:
+    #Construction creation adding the properties
     def __init__(self, pid, name, disease, gender, age):
         self.pid = pid
         self.name = name

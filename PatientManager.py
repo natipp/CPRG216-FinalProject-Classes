@@ -47,7 +47,7 @@ class PatientManager:
         print(f"{'ID':<6}{'Name':<20}{'Disease':<15}{'Gender':<15}{'Age':<6}\n")
         print(f"{patient.get_pid():<6}{patient.get_name():<20}{patient.get_disease():<15}{patient.get_gender():<15}{patient.get_age():<6}")
 
-    # Method to edir the patient information
+    # Method to edit the patient information
     def edit_patient_info_by_id(self):
         patient_id = input(
             "\nPlease enter the id of the Patient that you want to edit their information: ")
