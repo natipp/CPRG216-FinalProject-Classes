@@ -1,5 +1,6 @@
+#Creation of the Doctor class
 class Doctor:
-    # Constructor
+    # Constructor creation
     def __init__(self, doctor_id="", name="", specialization="", working_time="", qualification="", room_number=""):
         self.doctor_id = doctor_id
         self.name = name
@@ -45,6 +46,6 @@ class Doctor:
     def set_room_number(self, new_room_number):
         self.room_number = new_room_number
 
-    # toString
+    # Method to print the object
     def __str__(self):
         return f"{self.doctor_id}_{self.name}_{self.specialization}_{self.working_time}_{self.qualification}_{self.room_number}"
