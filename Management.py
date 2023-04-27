@@ -1,3 +1,4 @@
+# Import DoctorManager and PatientManager
 from DoctorManager import DoctorManager
 from PatientManager import PatientManager
 
@@ -7,6 +8,7 @@ pt_manager = PatientManager()
 
 
 class Management:
+    # Constructor
     def __init__(self):
         self.doctors = []
         self.patients = []
